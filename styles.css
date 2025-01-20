@@ -76,6 +76,65 @@
 .banner-text{
   padding-top: 70px;
 }
+.container-text{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.container-p{
+  font-size: .9rem;
+  font-weight: 500;
+}
+.curiculumn-a{
+  text-decoration: none;
+}
+.cu-1{
+ border-radius: 19px;
+ 
+ padding: 0px;
+ box-shadow: 5px 5px 5px 5px  gray;
+}
+.curriculumn-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 80px;
+  gap: 40px;
+  text-align: center;
+  padding: 40px;
+  background-image: url(B11-A2-Kids-School/assets/bg.png);
+  background-size: cover;
+  
+}
+.curiculum-btn:hover{
+  cursor: pointer;
+  background-color: orange;
+}
+.curiculum-btn{
+  background-color: orangered;
+  color: white;
+  position: relative;
+width: 60px;
+height: 60px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  border-radius: 50%;
+  align-items: center;
+  border: none;
+}
+.cu-btn{
+  text-align: center;
+}
+#Curriculum{
+  background-image: url(B11-A2-Kids-School/assets/bg.png);
+  background-size: cover;
+
+}
+.curiculumn-a{
+ 
+ 
+}
 @media screen and (max-width:576px) {
+  .nav-top-left-2 , .nav-info-container-2 , .nav-info-container-3{
+    display: none;
+  }
   
 }
