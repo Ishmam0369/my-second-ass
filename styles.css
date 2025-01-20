@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-bold {
+  font-family: "Quicksand", serif;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared */
+.small-text{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* nav */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 80px;
+}
+.nav-h{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.nav-info-container-1{
+  display: flex;
+}
+.nav-info-container-2{
+  display: flex;
+}
+.nav-info-container-2 > li{
+  list-style-type: none;
+  padding: 40px;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.nav-info-container-2 > li >a{
+  
+  text-decoration: none;
+}
+.btn{
+  padding: 10px 70px;
+  color: white;
+  background-color: rgb(254, 163, 1);
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: 525;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: orangered;
+  
+}
+/* banner */
+#h1-1{
+  color: rgb(254, 163, 1);
+}
+#h1-2{
+  color: rgb(1, 172, 253);
+}
+.banner{
+  margin: 40px 80px;
+  display: flex;
+  gap: 150px;
+}
+.unq-btn{
+  padding: 10px 60px;
+  color: whitesmoke;
+  background-color: Black;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.banner-image{padding-left: 40px;}
+.banner-text{
+  padding-top: 70px;
+}
+@media screen and (max-width:576px) {
+  
+}
