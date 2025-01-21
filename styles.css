@@ -33,12 +33,14 @@
 }
 .nav-info-container-2{
   display: flex;
+  padding-left: 70px;
 }
 .nav-info-container-2 > li{
   list-style-type: none;
   padding: 40px;
   font-size: 1.4rem;
   font-weight: 500;
+  
 }
 .nav-info-container-2 > li >a{
   
@@ -383,6 +385,7 @@ footer{
   }
   .cu-1{
     padding-bottom: 50px;
+    width: 100%;
   }
   .cu-btn {
     display: none;
@@ -441,6 +444,12 @@ footer{
   .footer{
     display: flex;
     flex-direction: column;
+  }
+  .marquee{
+    display: inline-block;
+  }
+  .marquee-p{
+    display: none;
   }
   .footer-3-2{
     padding-top: 40px;
