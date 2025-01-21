@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  justify-items: center;
   margin: 20px 80px;
 }
 .nav-h{
@@ -64,6 +65,10 @@
   display: flex;
   gap: 150px;
 }
+.unq-btn:hover{
+  cursor: pointer;
+  background-color: rgba(10, 9, 9, 0.856);
+}
 .unq-btn{
   padding: 10px 60px;
   color: whitesmoke;
@@ -71,6 +76,7 @@
   border-radius: 12px;
   font-size: 1rem;
   font-weight: 500;
+  margin-top: 40px;
 }
 .banner-image{padding-left: 40px;}
 .banner-text{
@@ -158,6 +164,9 @@ height: 60px;
 .story-2:hover{
   cursor: pointer;
 }
+.story-btn:hover{
+  cursor: pointer;
+}
 .story-btn{
   font-size: .9rem;
   font-weight: 500;
@@ -180,7 +189,6 @@ height: 60px;
   gap: 20px;
   flex-wrap: wrap;
   background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.3),rgb(223, 167, 118));
-  
 }
 .other-story{
   display: grid;
@@ -196,6 +204,7 @@ height: 60px;
   background-color: white;
   margin-left: 40px;
   border-radius: 50px;
+  margin-bottom: 20px;
 }
 .story-2{
   background-color: white;
@@ -224,6 +233,44 @@ height: 60px;
   text-align: center;
   font-weight: 700;
   border-radius: 30px;
+}
+.story-container-btn{ 
+  border-radius:14px ;
+  text-align: center;
+  margin: 100px auto ;
+  background-image: url(B11-A2-Kids-School/assets/bg.png);
+  padding-bottom: 100px;
+}
+.story-container-btn button{
+  background-color: black;
+  color: white;
+  padding: 16px 45px;
+  font-size:1.2rem ;
+  font-weight:700 ;
+  border-radius: 12px;
+  margin-bottom: -100px;
+}
+/* footer */
+*{
+  margin: 0;
+  
+}
+footer{
+  /* margin-top: 200px; */
+  padding: 40px;
+  padding-left: 80px;
+  background-color: lightskyblue;
+}
+.footer-1-1{
+  display: flex;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 206.11px;
+  height: 150px;
+}
+.footer-1-2{
+  color: white;
+  padding-top: 40px;
 }
 @media screen and (max-width:576px) {
   .nav-top-left-2 , .nav-info-container-2 , .nav-info-container-3{
