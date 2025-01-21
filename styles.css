@@ -307,8 +307,36 @@ footer{
   padding-top: 40px;
 }
 @media screen and (max-width:576px) {
+  *{
+    margin-left: 0px;
+  }
+  .navbar{
+    margin-left: 20px;
+  }
   .nav-top-left-2 , .nav-info-container-2 , .nav-info-container-3{
     display: none;
   }
-  
+  .minimized-button{
+    visibility: visible;
+
+  }
+  /* banner */
+  .banner-image{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .banner{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .small-text{
+    margin-top: 20px;
+  }
+  .unq-btn{
+    padding: 30px 70px;
+    font-size: 1.6rem;
+  }
 }
