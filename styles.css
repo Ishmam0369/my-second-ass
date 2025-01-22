@@ -361,7 +361,7 @@ footer{
   .banner-image{
     margin: 0px;
     padding: 0px;
-    margin-left: 50px;
+    margin-left: 10%;
     margin-bottom: 0%;
   }
   .banner-text{
@@ -372,30 +372,33 @@ footer{
   }
   #h1-1{
     font-size: 2rem;
+    margin-left: 10px;
     padding-right: 80px;
   }
   .h1-2-1{
     font-size: 2rem;
     /* padding-right: 60px; */
-    margin-left: -50px;
+    margin-left: 5px;
   }
   #h1-3{
-    font-size: 2rem;
-    margin-left: -50px;
-    padding-left: 10px;
-    /* padding-right: 60px; */
+    font-size: 1.8rem;
+    margin-left: 0px;
+    padding-left: px;
+  }
+  .b-t-x{
+    /* padding-right: 30px; */
   }
   #h1-2{
-    font-size: 2rem;
+    font-size: 1.8rem;
     /* padding-right: 60px; */
   }
   .b-1-1{
-    margin-left: 50px;
+    margin-left: 40px;
   }
   .banner-image img{
     width: 236.58px;
     height: 313px;
-    padding-right: 70px;
+    /* padding-right: 70px; */
   }
   .banner{
     margin-left: 30px;
@@ -455,26 +458,29 @@ footer{
     padding-bottom: 20px;   
     margin-left: 0px;
     padding-left: 0px;
-    max-width: 60% ;
+    max-width: 50% ;
   }
   .story-3{   
     
     padding-bottom: 20px;   
-    margin-left: -100px;
+    margin-left: -45%;
     padding-left: 0px;   
-    max-width: 80% ;
+    max-width: 50% ;
   }
   .story-4{    
     padding-bottom: 20px;
     margin-left: 0px;
     padding-left: 0px;
-    max-width: 60%;
+    max-width: 50%;
+  }
+  .story-header{
+    font-size: 1.5rem;
   }
   .story-5{
     padding-bottom: 20px;
-    margin-left: -100px;
+    margin-left: -45%;
     padding-left: 0px;
-    max-width: 80%;
+    max-width: 50%;
   }
   .story-btn{
     padding: 10px 15px;
@@ -488,7 +494,7 @@ footer{
     flex-direction: column;
   }
   .footer-1-1{
-    font-size: 1.5rem;
+    font-size: 1rem;
     
   }
   .marquee{
