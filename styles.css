@@ -334,10 +334,11 @@ footer{
   .navbar{
     margin-top: 0px ;
     margin-bottom: 20px;
-    border-bottom: 0.5px solid rgb(254, 163, 1);
+    /* border-bottom: 0.5px solid rgb(254, 163, 1); */
+    /* border-width: 100px; */
     margin-left: 0px;
-    padding-right: 547px;
-    
+    /* padding-right: 547px; */
+    margin-right: 0%;
   }
   .nav-top-left-1{
     margin-left: 10px;
@@ -349,31 +350,69 @@ footer{
   }
   .minimized-button{
      align-items: end;
-     
+     padding-left: 200px;
   }
   .minimized-button a{
     visibility: visible;
     
-    padding-left: 400px;
+    
   }
   /* banner */
   .banner-image{
     margin: 0px;
     padding: 0px;
-    margin-left: 5px;
+    margin-left: 50px;
+    margin-bottom: 0%;
+  }
+  .banner-text{
+    align-items: center;
+    justify-content: center;
+    padding-top: 0%;
+    margin-left: 0%;
+  }
+  #h1-1{
+    font-size: 2rem;
+    padding-right: 80px;
+  }
+  .h1-2-1{
+    font-size: 2rem;
+    /* padding-right: 60px; */
+    margin-left: -50px;
+  }
+  #h1-3{
+    font-size: 2rem;
+    margin-left: -50px;
+    padding-left: 10px;
+    /* padding-right: 60px; */
+  }
+  #h1-2{
+    font-size: 2rem;
+    /* padding-right: 60px; */
+  }
+  .b-1-1{
+    margin-left: 50px;
+  }
+  .banner-image img{
+    width: 236.58px;
+    height: 313px;
+    padding-right: 70px;
   }
   .banner{
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
+    gap: 20px;
   }
   .small-text{
     margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1rem;
   }
   .unq-btn{
     padding: 30px 70px;
     font-size: 1.6rem;
+    margin-left: 20px;
   }
   /* curiculumn */
   .Curriculum{
@@ -410,18 +449,18 @@ footer{
     margin-right: auto;
     padding-right: 0px;
     
-    width: 530px;
+    width: 90%;
   }
   .story-2{
     padding-bottom: 20px;   
     margin-left: 0px;
     padding-left: 0px;
-    max-width: 80% ;
+    max-width: 60% ;
   }
   .story-3{   
     
     padding-bottom: 20px;   
-    margin-left: -10px;
+    margin-left: -100px;
     padding-left: 0px;   
     max-width: 80% ;
   }
@@ -429,11 +468,11 @@ footer{
     padding-bottom: 20px;
     margin-left: 0px;
     padding-left: 0px;
-    max-width: 80%;
+    max-width: 60%;
   }
   .story-5{
     padding-bottom: 20px;
-    margin-left: -10px;
+    margin-left: -100px;
     padding-left: 0px;
     max-width: 80%;
   }
@@ -448,8 +487,13 @@ footer{
     display: flex;
     flex-direction: column;
   }
+  .footer-1-1{
+    font-size: 1.5rem;
+    
+  }
   .marquee{
     display: inline-block;
+    color: whitesmoke;
   }
   .marquee-p{display: none;}
   .footer-3-2{
@@ -457,21 +501,5 @@ footer{
     padding-left: 20px;
     display: flex;
     gap: 20px;
-  }
-  /* .a3-2-1{
-    padding-right: 20px;
-    padding-left:20px ;
-  }
-  .a3-2-2{
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .a3-2-3{
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .a3-2-4{
-    padding-right: 20px;
-    padding-left: 20px;
-  } */
+  } 
 }
